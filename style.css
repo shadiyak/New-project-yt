@@ -1,0 +1,169 @@
+:root{
+    --sidebar-width:240px
+}
+html,body{
+    font-family: "Roboto", sans-serif;
+}
+.yt-navebar{
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+
+}
+.round-btn{
+    border: 1px solid #ddd;
+    background-color: #ecebebcc !important ;
+    border-radius: 50px !important;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    position: relative;
+    bottom: 5px;
+
+}
+.round-btn i.bxs-microphone{
+    background-color: var(--bs-tertiary-bg) !important;
+}
+.round-btn:hover{
+    background-color: #cccc !important;
+}
+.round-btn-2{
+     border: 1px solid #ddd;
+    background-color: var(--bs-tertiary-bg) !important;
+    border-radius: 50px !important;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+    
+}
+.round-btn-2:hover{
+    background-color: #cccc !important;
+}
+.round-btn-2 i{
+    font-size: 15px;
+    position: relative;
+    padding-right: 3px;
+    
+}
+
+.logo{
+    width: 130px;
+}
+.yt-search-bar .input-group-text{
+    border-radius: 100px;
+    border: 1px solid #707070f3;
+    font-size: 24px;
+}
+.yt-search-bar .form-control{
+    border-radius: 100px;
+    border: 1px solid #cccc;
+
+}
+.yt-sidebar{
+    width: var(--sidebar-width);
+    height: 100vh;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    padding: 10px;
+    
+}
+.yt-main-content{
+    padding-left: var(--sidebar-width);
+}
+
+/** ********    SIDE BAR ******* */
+.yt-sidebar ul {
+    padding: 0;
+    margin: 0;
+
+
+}
+.yt-sidebar ul li{
+    list-style: none;
+    margin-bottom: 6px;
+
+}
+.yt-sidebar ul li a{
+    display: block;
+    border-radius: 10px;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+
+
+}
+.yt-sidebar ul li a i{
+    position: relative;
+    top: 3px; 
+    padding-right:  30px; ;
+    font-size: 20px;
+}
+.yt-sidebar ul li a.active{
+    background-color: #eee;
+
+}
+.over-flow-sidebar{
+    overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1 !important; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888 !important; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555 !important; 
+  }
+  .yt-video-card iframe{
+    border-radius: 14px;
+
+  }
+  .vedio-frame{
+    
+    
+  }
+  .yt-video-card .video-title{
+    font-size: 16px;
+    color: #000;
+
+  }
+  .vedio-tag{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 1px;
+
+
+  }
+  /** nNAV BAR ****/
+  .badge-area a{
+    border-radius: 10px;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+    background-color: #f5f4f4;
+    margin: 5px !important;
+    
+
+  }
+  .badge-area a:active{
+    background-color: #000;
+  }
+ 
+  .yt-navebar-2{
+    margin-left: var(--sidebar-width);
+    margin-bottom: 20px;
+
+  }
