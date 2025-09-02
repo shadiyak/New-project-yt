@@ -162,6 +162,6 @@ html,body{
   }
   .badge-area{
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
 
   }
