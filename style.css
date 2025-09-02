@@ -8,6 +8,7 @@ html,body{
     position: sticky;
     top: 0px;
     background-color: #fff;
+    
 
 }
 .round-btn{
@@ -50,7 +51,7 @@ html,body{
 }
 
 .logo{
-    width: 130px;
+    max-width: 130px;
 }
 .yt-search-bar .input-group-text{
     border-radius: 100px;
@@ -63,31 +64,19 @@ html,body{
 
 }
 .yt-sidebar{
-    width: var(--sidebar-width);
+    
     height: 100vh;
     border-right: 1px solid #ddd;
-    position: fixed;
+    
     padding: 10px;
     
 }
-.yt-main-content{
-    padding-left: var(--sidebar-width);
-}
+
 
 /** ********    SIDE BAR ******* */
-.yt-sidebar ul {
-    padding: 0;
-    margin: 0;
 
-
-}
-.yt-sidebar ul li{
-    list-style: none;
-    margin-bottom: 6px;
-
-}
-.yt-sidebar ul li a{
-    display: block;
+.yt-sidebar a{
+    
     border-radius: 10px;
     padding: 8px;
     color: #000;
@@ -95,13 +84,13 @@ html,body{
 
 
 }
-.yt-sidebar ul li a i{
-    position: relative;
+.yt-sidebar a i{
+  
     top: 3px; 
     padding-right:  30px; ;
     font-size: 20px;
 }
-.yt-sidebar ul li a.active{
+.yt-sidebar a.active{
     background-color: #eee;
 
 }
@@ -149,12 +138,14 @@ html,body{
   }
   /** nNAV BAR ****/
   .badge-area a{
+    
     border-radius: 10px;
     padding: 8px;
     color: #000;
     text-decoration: none;
     background-color: #f5f4f4;
-    margin: 5px !important;
+    white-space: nowrap;
+    margin-right: 15px;
     
 
   }
@@ -163,7 +154,14 @@ html,body{
   }
  
   .yt-navebar-2{
-    margin-left: var(--sidebar-width);
+    
     margin-bottom: 20px;
+
+    
+
+  }
+  .badge-area{
+    display: flex;
+    overflow-x: scroll;
 
   }
