@@ -95,7 +95,7 @@ html,body{
 
 }
 .over-flow-sidebar{
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 /* width */
 ::-webkit-scrollbar {
